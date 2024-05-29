@@ -1,0 +1,51 @@
+.home{
+  background: cadetblue;
+  padding-top: 60px;
+  &__title{
+    color: rgb(255, 255, 255);
+    font-family: DM Sans, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+  }
+  &__text{
+    color: rgb(255, 255, 255);
+    font-family: DM Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  &__directions{
+    display: flex;
+    flex-direction: row;
+  }
+  &__btn{
+    width: 167px;
+    height: 47px;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 168, 219);
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    margin-right: 15px;
+    &:hover{
+      background: black;
+      transition: .5s;
+    }
+  }
+}
+
+.sides{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+

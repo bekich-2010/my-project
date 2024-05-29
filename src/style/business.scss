@@ -1,0 +1,64 @@
+.business{
+  padding-top: 200px;
+  &__sides{
+    display: flex;
+    justify-content: space-around;
+  }
+  &__title{
+    color: rgb(3, 77, 130);
+    font-family: DM Sans, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  &__text{
+    color: rgb(144, 163, 180);
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__quotes{
+    color: rgb(3, 77, 130);
+    font-family: DM Sans, sans-serif;
+    font-size: 130px;
+    font-weight: 400;
+    height: 80px;
+  }
+  &__i{
+    color: rgb(144, 163, 180);
+    font-family: DM Sans, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__img{
+    width: 122px;
+    height: 18px;
+  }
+}
+
+.stars{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

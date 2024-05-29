@@ -1,0 +1,29 @@
+.div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  background: cadetblue;
+  padding-top: 50px;
+  &__link{
+    color: rgb(255, 255, 255);
+    font-family: DM Sans,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-left: 15px;
+  }
+}
+
+.header__btn{
+  width: 95px;
+  height: 28px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(-47.82deg, rgb(0, 84, 144) 1.659%,rgb(50, 139, 203) 96.78%);;
+  &:hover{
+    transition: .5s;
+    background: crimson;
+  }
+}

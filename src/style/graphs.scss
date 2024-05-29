@@ -1,0 +1,57 @@
+.graphs {
+  padding-top: 150px;
+
+  &__title {
+    color: rgb(3, 77, 130);
+    font-family: DM Sans, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  &__text {
+    color: rgb(144, 163, 180);
+    font-family: DM Sans, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+  }
+
+  &__sides {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+  }
+  &__link{
+    color: rgb(4, 170, 221);
+    font-family: DM Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.applications{
+  display: flex;
+  justify-content: space-between;
+  &__img{
+    width: 225.7px;
+    height: 70.83px;
+    margin-bottom: 205px;
+  }
+}
+
+.graphs__left-img{
+  width: 564px;
+  height: 610.85px;
+}
+
+
+
+
+
+
+
+
